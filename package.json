@@ -1,0 +1,27 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/*"
+        ],
+        "nohoist": [
+            "**/react-native",
+            "**/react-native/**",
+            "**/expo",
+            "**/expo/**",
+            "**/react-native-typescript-transformer",
+            "**/react-native-typescript-transformer/**",
+            "**/get-yarn-workspaces",
+            "**/get-yarn-workspaces/**",
+            "**/metro-config",
+            "**/metro-config/**"
+        ]
+    },
+    "name": "peanut",
+    "scripts": {
+        "build": "lerna run build"
+    },
+    "devDependencies": {
+        "lerna": "^3.13.4"
+    }
+}

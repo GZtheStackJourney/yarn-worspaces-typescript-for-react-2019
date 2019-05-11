@@ -1,0 +1,18 @@
+{
+  "name": "@peanut/server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@peanut/common": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  }
+}
